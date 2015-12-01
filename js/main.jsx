@@ -8,5 +8,4 @@ var ToDoList = require('./components/toDoList.jsx');
 var ToDoListItem = require('./components/toDoListItem.jsx');
 var ToDoForm = require('./components/toDoForm.jsx');
 
-
-
+ReactDOM.render(<ToDo />, document.getElementById('container'));

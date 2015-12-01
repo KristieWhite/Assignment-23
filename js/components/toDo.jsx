@@ -1,10 +1,9 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Backbone = require('backbone');
-var BackboneParse = require('../backbone-parse.js');
-require('./toDoBanner.jsx');
-require('./toDoList.jsx');
-require('./toDoForm.jsx');
+var Backbone = require('../backbone-parse.js');
+var ToDoBanner = require('./toDoBanner.jsx');
+var ToDoList = require('./toDoList.jsx');
+var ToDoForm = require('./toDoForm.jsx');
 require('../../main.css');
 require('../main.js');
 
